@@ -2,7 +2,7 @@
 
 The fastest way to deploy the alist to koyeb is to click the **Deploy to Koyeb** button below.
 
-[![deploy to koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=docker&image=xhofe/alist&ports=8080;http;/&name=alist&env[DB_TYPE]=sqlite3&env[DB_HOST]=host&[DB_PORT]=3306&env[DB_USER]=alist&env[DB_PASS]password=&[DB_NAME]=alist&env[DB_TABLE_PREFIX]=alist_&env[CACHE_EXPIRATION]=60&env[CLEANUP_INTERVAL]=120&env[A_LIST_ASSETS]=https://npm.elemecdn.com/alist-web@$version/dist)
+[![deploy to koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=docker&image=xhofe/alist&ports=8080;http;/&name=alist&env[DB_TYPE]=sqlite3&env[DB_HOST]=host&[DB_PORT]=3306&env[DB_USER]=alist&env[DB_PASS]password=&[DB_NAME]=alist&env[DB_TABLE_PREFIX]=alist_&env[CACHE_EXPIRATION]=60&env[CLEANUP_INTERVAL]=120&env[ASSETS]=https://npm.elemecdn.com/alist-web@$version/dist)
 
 ### database
 You may need to use another remote MySQL database as instance restarts will lose data.
