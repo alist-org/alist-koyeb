@@ -2,7 +2,7 @@
 
 The fastest way to deploy the alist to koyeb is to click the **Deploy to Koyeb** button below.
 
-[![deploy to koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=docker&image=xhofe/alist:v3.28.0&ports=5244;http;/&name=alist&env[PORT]=5244&env[DB_TYPE]=mysql&env[DB_HOST]=host&env[DB_PORT]=3306&env[DB_USER]=alist&env[DB_PASS]=password&env[DB_NAME]=alist&env[DB_TABLE_PREFIX]=alist_&env[DB_SSL_MODE]=false&env[CDN]=https://cdn.jsdelivr.net/npm/alist-web@3.28.0/dist)
+[![deploy to koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=docker&image=xhofe/alist:latest&ports=5244;http;/&name=alist&env[PORT]=5244&env[DB_TYPE]=mysql&env[DB_HOST]=host&env[DB_PORT]=3306&env[DB_USER]=alist&env[DB_PASS]=password&env[DB_NAME]=alist&env[DB_TABLE_PREFIX]=alist_&env[DB_SSL_MODE]=false&env[CDN]=https://cdn.jsdelivr.net/npm/alist-web@$version/dist)
 
 Update the environment variables as follows:
 
