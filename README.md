@@ -16,7 +16,7 @@ Update the environment variables as follows:
 
 `DB_TABLE_PREFIX:` alist_ (keep as it is)
 
-`CDN:` https://cdn.jsdelivr.net/npm/alist-web@3.28.0/dist (you can also use other CDN. but this CDN is tested and working.)
+`CDN:` https://cdn.jsdelivr.net/npm/alist-web@$version/dist (you can also use other CDN. but this CDN is tested and working.)
 
 `DB_PORT:` 3306 (keep as it is)
 
